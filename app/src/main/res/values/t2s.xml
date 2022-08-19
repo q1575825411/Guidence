@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="device_name">T2s</string>
+    <string name="user_guidance">使用指南</string>
+    <string name="nothing">nothing</string>
+
+    <string-array name="devices">
+        <item name="t2s">T2s</item>
+    </string-array>
+
+
+    <array  name="T2s">
+        <item name="device_pic">@drawable/model_image</item>
+        <item name="tittle">@array/title</item>
+        <item name="description">@array/description</item>
+        <item name="videoId">@array/videoId</item>
+        <item name="devices_name">@array/devices</item>
+    </array>
+
+    <array name="title">
+        <item>安装打印纸</item>
+        <item>死机怎么办</item>
+        <item>硬件拓展</item>
+        <item>卡纸怎么办</item>
+    </array>
+
+    <array name="description">
+        <item>从机器底座右侧找到把手，打开纸仓，将打印纸（80mm）向上拉出放入纸仓，拉出部分纸张至切口外，双手关闭纸仓，完成。
+        </item>
+        <item>长按电源键11s，设备将断电关机。长按2s，重启设备。
+        </item>
+        <item>扩展接口位于背部机身塑料壳内，可从底下缺口轻轻打开（如图）；共包含以下接口（从左至右）：
+            (1)电源(2)钱箱(3)网线(4)2个USB2.0(5)串口（可用于部分电子秤）(6)2个USB2.0(7)3.5mm耳机
+        </item>
+        <item>找到图示位置打开打印机刀盖，向上拨动齿轮，直到弹出切刀修复提示或者弹出纸仓盖</item>
+    </array>
+
+    <array name="videoId">
+        <item>@raw/install_paper</item>
+        <item>@raw/solve_system_crash</item>
+        <item>@raw/hardware_expansion</item>
+        <item>@raw/solve_paper_problem</item>
+    </array>
+
+</resources>

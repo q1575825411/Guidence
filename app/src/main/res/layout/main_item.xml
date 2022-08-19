@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+    <!--大屏幕设备RecyclerView item-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/dp_18"
+        android:paddingTop="@dimen/dp_12"
+        android:paddingEnd="@dimen/dp_6"
+        android:paddingBottom="@dimen/dp_6"
+        android:focusable="true">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_parent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_22"
+            android:background="@null">
+
+            <TextView
+                android:id="@+id/contactName"
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_6"
+                android:text="Contact name"
+                android:textColor="@color/white"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tools:ignore="HardcodedText" />
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_180"
+                android:layout_marginTop="@dimen/dp_2"
+                android:contentDescription="@string/nothing"
+                android:src="@drawable/arrow_up" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/infos"
+            android:layout_width="@dimen/dp_200"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</layout>
