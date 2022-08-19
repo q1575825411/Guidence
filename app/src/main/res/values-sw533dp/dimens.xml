@@ -3,6 +3,12 @@
     	
     <dimen name="dp_0">0.0000dp</dimen>
     	
+    <dimen name="dp_1">1.4806dp</dimen>
+    	
+    <dimen name="dp_2">2.9611dp</dimen>
+    	
+    <dimen name="dp_3">4.4417dp</dimen>
+    	
     <dimen name="dp_5">7.4028dp</dimen>
     	
     <dimen name="dp_6">8.8833dp</dimen>
